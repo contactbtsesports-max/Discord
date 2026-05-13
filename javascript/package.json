@@ -1,0 +1,25 @@
+{
+  "name": "discord-auto-moderation-bot",
+  "version": "1.0.0",
+  "description": "Official Discord Auto-Moderation Bot - Automatically blocks insults and rule violations",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "moderation",
+    "auto-moderation"
+  ],
+  "author": "contactbtsesports-max",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
